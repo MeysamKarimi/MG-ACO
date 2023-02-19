@@ -23,10 +23,11 @@ AtlTransformation trafo = AtlTransformation.fromFile(trafo("Grafcet2PetriNet", "
 
 After executing the program, some information will be displayed in the console. At the end, it indicates the file with the result of the mutation analysis. This is a TXT file named "Report" that is located in each case study folder of the containing the average result of model transformation mutants of the corresponding analysis_caseStudyName folder.
 
-
 ### Performance
+
 Regarding the measurement of the performance of different approaches, as described in the paper [1], thirty different executions were performed with different numbers and sizes of models in each approach. These results can be seen in the Performance.xlsx file. 
 
+### References
 
 [1] Meysam Karimi, Shekoufeh Kolahdouz-Rahimi, Javier Troya. "Test model generation for model transformation testing applying ant colony optimization". Submitted, 2023
 
