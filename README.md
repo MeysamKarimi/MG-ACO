@@ -1,9 +1,6 @@
 # Ant-Colony Optimization (ACO) for model generation
 This repository contains the prototype tool supporting the work in [1] that applies ACO for model generation with the aim of model transformation testing. It also contains the results of the experiments, with the corresponding files. 
 
-## Source code and the Mutation Analysis for the ACO Approach for Test Case Generation 
-
-This project contains the implementation of ACO approach to generate metamodel instances in the context of model transfromation testing. Also, this project supports and verifies the mutation analysis performed in [1]. 
 
 ## Prototype tool 
 It has been developed with Eclipse Modeling Tools, version IDE 2020-06 (4.16.0). The following plugins are needed: MDE Testing Framework [2], anATLyzer [3] and ATL.
@@ -27,13 +24,13 @@ String[] metamodelNames = new String[] { "Grafcet", "PetriNet" };
 AtlTransformation trafo = AtlTransformation.fromFile(trafo("Grafcet2PetriNet", "Grafcet2PetriNet.atl"), metamodelFiles, metamodelNames);
 ```
 
-After executing the program, some information will be displayed in the console. At the end, it indicates the file with the result of the mutation analysis. This is a TXT file named "Report" that is located in each case study folder of the containing the average result of model transformation mutants of the corresponding analysis_caseStudyName folder.
+After executing the program, some information will be displayed in the console. At the end, it indicates the file with the result of the mutation analysis. This is a txt file named "Report" that is located in each case study's folder of the containing the average result of model transformation mutants of the corresponding analysis_caseStudyName folder.
 
-### Performance
+## Performance
 
 Regarding the measurement of the performance of different approaches, as described in the paper [1], thirty different executions were performed with different numbers and sizes of models in each approach. These results can be seen in the Performance.xlsx file. 
 
-### References
+## References
 
 [1] Meysam Karimi, Shekoufeh Kolahdouz-Rahimi, Javier Troya. "Test model generation for model transformation testing applying ant colony optimization". Submitted, 2023
 
