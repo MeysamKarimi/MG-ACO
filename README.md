@@ -1,4 +1,4 @@
-# MG-ACO
+# Ant-Colony Optimization (ACO) for model generation
 Ant Colony Optimization for test models generation in model transformation testing
 
 ## Source code and the Mutation Analysis for the ACO Approach for Test Case Generation 
