@@ -12,7 +12,7 @@ To run the program with desired settings, three parts can be changed in "App.jav
 * The "loadOclRules" method where the user can define an ocl file containing ocl constraints.
 * Arbitrary parameters such as "elementCount", "modelCount", as well as ACO algorithm parameters including "rounds", "populationCount", "alpha" and "beta", which can be defined in the "DiscoveredPath" and "ACO" constructors.
 
-Please note that the population of ants must be equal or greater than the number of requested models. Once, all disired settings are applied, you could easily run the app and see the models as the output.
+Please note that the population of ants must be equal or greater than the number of requested models. Once, all desired settings are applied, you could easily run the app and see the models as the output.
 
 ## Mutation Analysis
 
