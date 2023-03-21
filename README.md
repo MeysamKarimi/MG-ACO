@@ -31,7 +31,7 @@ String[] metamodelNames = new String[] { "Grafcet", "PetriNet" };
 AtlTransformation trafo = AtlTransformation.fromFile(trafo("Grafcet2PetriNet", "Grafcet2PetriNet.atl"), metamodelFiles, metamodelNames);
 ```
 
-After executing the program, some information with the results of the mutation analysis will be displayed in the console as well as stores in a "Report.txt" file.
+After executing the program, some information with the results of the mutation analysis will be displayed in the console as well as stored in a "Report.txt" file.
 
 ## Performance Evaluation
 
