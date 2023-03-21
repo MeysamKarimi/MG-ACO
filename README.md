@@ -5,7 +5,7 @@ This repository contains the prototype tool supporting the work in [1] that appl
 ## Prototype tool 
 It has been developed with Eclipse Modeling Tools, version IDE 2020-06 (4.16.0). The following plugins are needed: MDE Testing Framework [2], anATLyzer [3] and ATL.
 
-Folder "src" contains the source code written in Java 11. Folder "resources" contains inputs related to the case studies, including metamodels, OCL constraints and VQL constraints. As an example "Families.ecore", which is used as running example in [1], is located in this folder. Folder "Moldes" will hold generated models after running the tool.
+Folder "src" contains the source code written in Java 11. Folder "resources" contains inputs related to the case studies, including metamodels, OCL constraints and VQL constraints. As an example "Families.ecore", which is used as running example in [1], is located in this folder. Folder "Moldes" will hold the generated models after running the tool.
 
 To run the program with desired settings, three parts can be changed in "App.java" file:
 * The "loadMetamodel" method where the user can define the desired metamodel.
