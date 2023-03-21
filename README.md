@@ -7,9 +7,9 @@ It has been developed with Eclipse Modeling Tools, version IDE 2020-06 (4.16.0).
 
 Folder "src" contains the source code written in Java 11. Folder "resources" contains inputs related to the case studies, including metamodels, OCL constraints and VQL constraints. As an example "Families.ecore", which is used as running example in [1], is located in this folder. Folder "Moldes" will hold the generated models after running the tool.
 
-To run the program with desired settings, three parts can be changed in "App.java" file:
-* The "loadMetamodel" method where the user can define the desired metamodel.
-* The "loadOclRules" method where the user can define an ocl file containing ocl constraints.
+To run the program with specific inputs, three parts can be changed in the executable "App.java" class:
+* The "loadMetamodel" method, where the user can specify the input metamodel.
+* The "loadOclRules" method, where the user can specify a file containing OCL constraints.
 * Arbitrary parameters such as "elementCount", "modelCount", as well as ACO algorithm parameters including "rounds", "populationCount", "alpha" and "beta", which can be defined in the "DiscoveredPath" and "ACO" constructors.
 
 Please note that the population of ants must be equal or greater than the number of requested models. Once, all desired settings are applied, you could easily run the app and see the models as the output.
