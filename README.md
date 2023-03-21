@@ -35,7 +35,7 @@ After executing the program, some information with the results of the mutation a
 
 ## Performance Evaluation
 
-Regarding the measurement of the performance of the different approaches, as described in [1], thirty different executions were performed with different numbers and sizes of models in each approach. The results can be seen in the Performance.xlsx file. 
+Regarding the measurement of the performance of the different approaches, as described in [1], thirty different executions were performed with different numbers and sizes of models and for each approach under comparison. The results can be seen in the Performance.xlsx file. 
 
 ## References
 
