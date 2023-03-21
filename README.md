@@ -1,5 +1,5 @@
 # Ant-Colony Optimization (ACO) for model generation
-This repository contains the prototype tool supporting the work in [1] that applies ACO for model generation with the aim of model transformation testing. It also contains the results of the experiments, with the corresponding files. 
+This repository contains the prototype tool supporting the work in [1] that applies ACO for model generation with the aim of model transformation testing. It also contains the results of the experiments (mutation analysis and performance evaluation), with the corresponding files. 
 
 
 ## Prototype tool 
