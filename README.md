@@ -33,7 +33,7 @@ AtlTransformation trafo = AtlTransformation.fromFile(trafo("Grafcet2PetriNet", "
 
 After executing the program, some information with the results of the mutation analysis will be displayed in the console as well as stores in a "Report.txt" file.
 
-## Performance
+## Performance Evaluation
 
 Regarding the measurement of the performance of the different approaches, as described in [1], thirty different executions were performed with different numbers and sizes of models in each approach. The results can be seen in the Performance.xlsx file. 
 
