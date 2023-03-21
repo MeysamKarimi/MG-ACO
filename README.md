@@ -10,7 +10,7 @@ Folder "src" contains the source code written in Java 11. Folder "resources" con
 To run the program with specific inputs, three parts can be changed in the executable "App.java" class:
 * The "loadMetamodel" method, where the user can specify the input metamodel.
 * The "loadOclRules" method, where the user can specify a file containing OCL constraints.
-* Arbitrary parameters such as "elementCount", "modelCount", as well as ACO algorithm parameters including "rounds", "populationCount", "alpha" and "beta", which can be defined in the "DiscoveredPath" and "ACO" constructors.
+* Arbitrary parameters such as "elementCount", "modelCount", as well as ACO-specific parameters including "rounds", "populationCount", "alpha" and "beta", which can be defined in the "DiscoveredPath" and "ACO" constructors.
 
 Please note that the population of ants must be equal or greater than the number of requested models. After all inputs are set, the "App.java" class can be run and the models are generated as output.
 
